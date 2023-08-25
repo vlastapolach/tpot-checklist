@@ -63,6 +63,7 @@ a:hover {
 	display: flex;
 	flex-direction: row;
 	flex-wrap: wrap;
+	align-items: center;
 }
 
 .question p {
@@ -89,9 +90,7 @@ input[type=checkbox] {
 }
 
 label {
-	display: inline-block;
 	cursor: pointer;
-	width: calc(100% - 23px);
 	font-size: 1.5rem;
 }
 
