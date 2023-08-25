@@ -1,0 +1,130 @@
+:root {
+	--color-white: #ffffff;
+	--color-light-bg: #fcfcfc;
+	--color-gray: #333333;
+	--color-dark-bg: #3c3c3c;
+	--color-blue: #3e29fa;
+	--color-purple: #b8b0ff;
+	--bs-body-font-size: 1rem;
+	--bs-body-line-height: 1.5;
+	--bs-body-color: #4a4a4a;
+	--bs-body-bg: #fff;
+	
+	--custom-primary-hover: #3db36b;
+}
+
+html {
+	font-family: system-ui,-apple-system,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans","Liberation Sans",sans-serif;
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	margin: 0;
+	padding: 0;
+	font-size: 1.2rem;
+}
+
+main {
+	padding: 15px;
+	max-width: 700px;
+	margin: 0 auto;
+}
+
+h1 {
+	font-size: 1.6rem;
+}
+
+h2 {
+	font-size: 1.4rem;
+}
+
+a {
+	text-decoration: underline;
+}
+
+a:hover {
+	text-decoration: none;
+}
+
+.text-center {
+	text-align: center;
+}
+
+.is-hidden {
+	display: none !important;
+}
+
+.question {
+	border: 1px solid #000;
+	border-radius: 10px;
+	padding: 15px;
+	margin: 15px 0;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+}
+
+.question p {
+	width: 100%;
+	padding-left: 40px;
+	position: relative;
+}
+
+.question p:before {
+	content: '';
+	display: block;
+	width: 30px;
+	height: 30px;
+	background-image: url('./info.svg');
+	background-size: cover;
+	position: absolute;
+	top: 50%;
+	left: 0;
+	transform: translateY(-50%);
+}
+
+input[type=checkbox] {
+	margin: 3px 10px 3px 0;
+}
+
+label {
+	display: inline-block;
+	cursor: pointer;
+	width: calc(100% - 23px);
+	font-size: 1.5rem;
+}
+
+/* Styles for light mode */
+@media (prefers-color-scheme: light) {
+	body {
+		background-color: var(--color-white);
+		color: var(--color-gray);
+	}
+
+	a {
+		color: var(--color-blue);
+	}
+
+	.question {
+		border-color: #ddd;
+		background-color: var(--color-light-bg);
+	}
+}
+
+/* Styles for dark mode */
+@media (prefers-color-scheme: dark) {
+	body {
+		background-color: var(--color-gray);
+		color: var(--color-white);
+	}
+
+	a {
+		color: var(--color-purple);
+	}
+
+	.question {
+		border-color: #666;
+		background-color: var(--color-dark-bg);
+	}
+}
