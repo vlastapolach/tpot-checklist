@@ -9,7 +9,7 @@
 	},
 	{
 		"label": "4H Bias is confirmed", 
-		"text": "(FT / NFT / SFT)<br>(Unconfirmed = Wait for candle close which will confirm bias. Until this NO Trade.)<br><a href='https://www.evolutionmarketsfx.com/products/the-power-of-two-tpot/categories/2153383497/posts/2169719894' target='_blank' rel='noopener'>Video lesson: DIRECTIONAL BIAS</a>" 
+		"text": "(FT / NFT / SFT)<br>(Unconfirmed = Wait for candle close which will confirm bias. Until this <strong>No trade</strong>)<br><a href='https://www.evolutionmarketsfx.com/products/the-power-of-two-tpot/categories/2153383497/posts/2169719894' target='_blank' rel='noopener'>Video lesson: DIRECTIONAL BIAS</a>" 
 	},
 	{
 		"label": "15M range is marked",
@@ -21,7 +21,7 @@
 	},
 	{
 		"label": "I don't have other active trades in the same direction", 
-		"text": "If yes, do not trade until previous trade is finished" 
+		"text": "If yes, <strong>Not trade</strong> until previous trade is finished" 
 	},
 	{
 		"label": "Possible trade direction is aligned with 4H Bias (Pro-bias) or with 4H Trend (Pro-trend, Counter-bias)", 
@@ -36,7 +36,7 @@
 	},
 	{
 		"label": "Price is still inside 4H Range",
-		"text": "If not, do not trade until new 4H Bias is confirmed. (go back to step 3 - 4H Bias confirmation)" 
+		"text": "If not, <strong>No trade</strong> until new 4H Bias is confirmed. (go back to step 3 - 4H Bias confirmation)" 
 	},
 	{
 		"label": "Killzone is without Restricted market news. Or the sweep is at least 1 hour after news event", 
