@@ -62,7 +62,7 @@
 		"text": "Wait for end of 15M candle (that made the sweep) and <strong>place stop limit order with SL and TP</strong> + place alert on high/low of sweep candle (for extended sweep)" 
 	},
 	{
-		"label": "Price is still in my Killzone", 
+		"label": "Market is still in my Killzone", 
 		"text": "If not, <strong>cancel</strong> the pending order" 
 	},
 	{
