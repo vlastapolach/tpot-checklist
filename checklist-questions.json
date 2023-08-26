@@ -21,7 +21,7 @@
 	},
 	{
 		"label": "I don't have other active trades in the same direction", 
-		"text": "If yes, <strong>Not trade</strong> until previous trade is finished" 
+		"text": "If yes, <strong>No trade</strong> until previous trade is finished" 
 	},
 	{
 		"label": "Possible trade direction is aligned with 4H Bias (Pro-bias) or with 4H Trend (Pro-trend, Counter-bias)", 
