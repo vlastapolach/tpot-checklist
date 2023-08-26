@@ -25,7 +25,7 @@
 	},
 	{
 		"label": "Possible trade direction is aligned with 4H Bias (Pro-bias) or with 4H Trend (Pro-trend, Counter-bias)", 
-		"text": "<a href='https://www.evolutionmarketsfx.com/products/the-power-of-two-tpot/categories/2152365791/posts/2170171962' target='_blank' rel='noopener'>Video lesson: TRADE MATRIX</a><br><a href='https://www.evolutionmarketsfx.com/courses/downloads/2155137740/tpot_trade_matrix-pdf' target='_blank' rel='noopener'>PDF: TRADE MATRIX</a>" 
+		"text": "<a href='https://www.evolutionmarketsfx.com/products/the-power-of-two-tpot/categories/2152365791/posts/2170171962' target='_blank' rel='noopener'>Video lesson: TRADE MATRIX</a><br>TRADE MATRIX: <a href='https://www.evolutionmarketsfx.com/courses/downloads/2155137740/tpot_trade_matrix-pdf' target='_blank' rel='noopener'>PDF, Dark version</a> / <a href='https://www.evolutionmarketsfx.com/courses/downloads/2155190117/tpot_trade_matrix_-_light-pdf' target='_blank' rel='noopener'>PDF, Light version</a>" 
 	},
 	{
 		"label": "Alerts are set on 15M external range and/or internal range (last internal fractal) in desired direction.",
@@ -51,27 +51,30 @@
 		"text": "<a href='https://www.evolutionmarketsfx.com/products/the-power-of-two-tpot/categories/2153383497/posts/2170215627' target='_blank' rel='noopener'>Video lesson: ENTRIES</a>" 
 	},
 	{
-		"label": "Stop Loss (SL) is smaller than 20 pips (EU, UC) with 1-2 pips buffer or 30 pips (GU) with 3-4 pips buffer", 
-		"text": "<a href='' target='_blank' rel='noopener'>Video lesson: </a>" 
+		"label": "Stop Loss (SL) is smaller than 20 pips (EU, UC) with 1-2 pips buffer or 30 pips (GU) with 3-4 pips buffer"
+	},
+	{
+		"label": "Position is sized according to my risk structure", 
+		"text": "<a href='https://www.myfxbook.com/forex-calculators/position-size' target='_blank' rel='noopener'>Position Size Calculator</a>"
 	},
 	{
 		"label": "Take Profit (TP) target 1:3 RR is within 4H range. Or at least 1:2 RR for SFT bias trades", 
-		"text": "Wait for end of 15M candle (that made the sweep) and place stop limit order with SL and TP + place alert on SL and TP" 
+		"text": "Wait for end of 15M candle (that made the sweep) and <strong>place stop limit order with SL and TP</strong> + place alert on high/low of sweep candle (for extended sweep)" 
 	},
 	{
 		"label": "Price is still in my Killzone", 
-		"text": "If not, cancel the pending order" 
+		"text": "If not, <strong>cancel</strong> the pending order" 
 	},
 	{
-		"label": "Price swept SL before entering trade (Extended sweep)", 
-		"text": "Cancel pending limit order. Wait for end of 15M candle and then place new Stop limit order.<br>(Must meet all previous criteria - be in killzone, proper size of candle, not too close to 4H range, 1:3 RR inside 4H range). Wait for the end of next 15 candle." 
+		"label": "Price swept entry candle high/low before entering trade (Extended sweep)", 
+		"text": "<strong>Cancel</strong> pending limit order. Wait for end of 15M candle and then place new Stop limit order.<br>(Must meet all previous criteria - be in killzone, proper size of candle, not too close to 4H range, 1:3 RR inside 4H range). Wait for the end of next 15 candle." 
 	},
 	{
-		"label": "Next candle after placing limit order swept the SL again",
-		"text": "Cancel pending order and place new one as in previous step"
+		"label": "Next candle after placing limit order swept the entry candle high/low again",
+		"text": "<strong>Cancel</strong> pending order and place new one as in previous step"
 	},
 	{
-		"label": "Next candle did not trigger the trade nor swept the SL", 
-		"text": "Cancel pending order and do not trade this direction in this Killzone again. Wait for next Killzone and repeat checklist" 
+		"label": "Next candle did not trigger the trade nor swept entry candle high/low", 
+		"text": "<strong>Cancel</strong> pending order and do not trade this direction in this Killzone again. Wait for next Killzone and repeat checklist" 
 	}
 ]

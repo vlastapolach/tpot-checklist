@@ -5,12 +5,6 @@
 	--color-dark-bg: #3c3c3c;
 	--color-blue: #3e29fa;
 	--color-purple: #b8b0ff;
-	--bs-body-font-size: 1rem;
-	--bs-body-line-height: 1.5;
-	--bs-body-color: #4a4a4a;
-	--bs-body-bg: #fff;
-	
-	--custom-primary-hover: #3db36b;
 }
 
 html {
@@ -64,6 +58,14 @@ a:hover {
 	flex-direction: row;
 	flex-wrap: wrap;
 	align-items: center;
+}
+
+.question:last-of-type input[type=checkbox] {
+	visibility: hidden;
+}
+
+.question:last-of-type label {
+	cursor: default !important;
 }
 
 .question p {
