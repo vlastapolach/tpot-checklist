@@ -2,7 +2,7 @@ document.addEventListener("DOMContentLoaded", function () {
 	const questionContainer = document.getElementById("questionContainer");
 
 	
-	fetch('https://vlastapolach.cz/tpot-checklist/checklist-questions.json?v=1')
+	fetch('https://vlastapolach.cz/tpot-checklist/checklist-questions.json?v=2')
 	.then(response => response.json())
 	.then(questions => {
 		questions.forEach((question, index) => {
