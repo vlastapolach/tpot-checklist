@@ -21,7 +21,7 @@
 	},
 	{
 		"label": "I don't have other active trades in the same direction", 
-		"text": "If yes, <strong>No trade</strong> until previous trade is finished" 
+		"text": "If yes, <strong>No trade</strong> until previous trade is finished. It's OK to open second trade in opposite direction (Max 2% exposition on pair)" 
 	},
 	{
 		"label": "Possible trade direction is aligned with 4H Bias (Pro-bias) or with 4H Trend (Pro-trend, Counter-bias)", 
@@ -32,7 +32,8 @@
 		"text": "Or I'm staring to the charts and don't need alerts.."
 	},
 	{
-		"label": "Price swept 15M external range (or internal range) by at least 1 pip?"
+		"label": "Price swept 15M external range (or internal range) by at least 1 pip?",
+		"text": "If the range/fractal was swept before killzone, wait for creating of new fractal and set alert/wait for sweep there"
 	},
 	{
 		"label": "Price is still inside 4H Range",
@@ -75,6 +76,6 @@
 	},
 	{
 		"label": "Next candle did not trigger the trade nor swept entry candle high/low", 
-		"text": "<strong>Cancel</strong> pending order and do not trade this direction in this Killzone again. Wait for next Killzone and repeat checklist" 
+		"text": "Do not extend the sweep anymore. Let the limit order places, trade is still valid, until high/low swept, that will cancel trade. Wait for next Killzone and repeat checklist" 
 	}
 ]
